@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Minry&#39;s Blog</title>
-    <link>https://minry.github.io/ru/categories/</link>
+    <link>https://minry.github.io/zh/categories/</link>
     <description>Recent content in Categories on Minry&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://minry.github.io/ru/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://minry.github.io/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

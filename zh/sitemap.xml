@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://minry.github.io/ru/categories/</loc>
+    <loc>https://minry.github.io/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -11,18 +11,18 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://minry.github.io/zh/categories/"
+                hreflang="ru"
+                href="https://minry.github.io/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://minry.github.io/ru/categories/"
+                hreflang="zh"
+                href="https://minry.github.io/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://minry.github.io/ru/</loc>
+    <loc>https://minry.github.io/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,18 +30,18 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://minry.github.io/zh/"
+                hreflang="ru"
+                href="https://minry.github.io/ru/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://minry.github.io/ru/"
+                hreflang="zh"
+                href="https://minry.github.io/zh/"
                 />
   </url>
   
   <url>
-    <loc>https://minry.github.io/ru/tags/</loc>
+    <loc>https://minry.github.io/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,13 +49,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://minry.github.io/zh/tags/"
+                hreflang="ru"
+                href="https://minry.github.io/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://minry.github.io/ru/tags/"
+                hreflang="zh"
+                href="https://minry.github.io/zh/tags/"
                 />
   </url>
   

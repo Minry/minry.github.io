@@ -9,13 +9,15 @@ We&rsquo;ll start with creating a new site with a very basic template."><meta pr
 <meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
 We&rsquo;ll start with creating a new site with a very basic template." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://github.com/Minry/minry.github.io.git/posts/creating-a-new-theme/" />
+<meta property="og:url" content="https://example.com/posts/creating-a-new-theme/" />
 <meta property="article:published_time" content="2014-09-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2014-09-28T00:00:00+00:00" />
-<title>Creating a New Theme | My New Hugo Site</title>
-<link rel="icon" href="/Minry/minry.github.io.git/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/Minry/minry.github.io.git/book.min.284c8fc21ced13c579d9027a9d14893c56b243c6045001180391cebb4cc36ab8.css" integrity="sha256-KEyPwhztE8V52QJ6nRSJPFayQ8YEUAEYA5HOu0zDarg=">
-<script defer src="/Minry/minry.github.io.git/en.search.min.b2ac7f0eb2fcd24d77a33bacd30814af616df2357e761efa49280502dbf7d953.js" integrity="sha256-sqx/DrL80k13ozus0wgUr2Ft8jV&#43;dh76SSgFAtv32VM="></script>
+<meta property="article:modified_time" content="2020-04-22T14:29:22+08:00" />
+<title>Creating a New Theme | Hugo Book</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.284c8fc21ced13c579d9027a9d14893c56b243c6045001180391cebb4cc36ab8.css" integrity="sha256-KEyPwhztE8V52QJ6nRSJPFayQ8YEUAEYA5HOu0zDarg=">
+<script defer src="/en.search.min.9669cf8652f87e9bc323a2e38f32abdb41250da65642887878b6d19d60d11e16.js" integrity="sha256-lmnPhlL4fpvDI6LjjzKr20ElDaZWQoh4eLbRnWDRHhY="></script>
+
+<script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -31,7 +33,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav>
 <h2 class="book-brand">
-  <a href="/Minry/minry.github.io.git"><span>My New Hugo Site</span>
+  <a href="/"><span>Hugo Book</span>
   </a>
 </h2>
 
@@ -68,7 +70,7 @@ https://github.com/alex-shpak/hugo-book
         <li class="book-section-flat" >
           
   
-    <a href="/Minry/minry.github.io.git/docs/example/" class="">Example Site</a>
+    <a href="/docs/example/" class="">Example Site</a>
   
 
           
@@ -83,7 +85,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/example/table-of-contents/" class="">Table of Contents</a>
+    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
   
 
           
@@ -98,7 +100,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
   
 
         </li>
@@ -108,7 +110,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
   
 
         </li>
@@ -124,7 +126,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/example/collapsed/" class="collapsed ">Collapsed</a>
+    <a href="/docs/example/collapsed/" class="collapsed ">Collapsed</a>
   
 
           
@@ -162,7 +164,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/buttons/" class="">Buttons</a>
+    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
   
 
         </li>
@@ -172,7 +174,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/columns/" class="">Columns</a>
+    <a href="/docs/shortcodes/columns/" class="">Columns</a>
   
 
         </li>
@@ -182,7 +184,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/expand/" class="">Expand</a>
+    <a href="/docs/shortcodes/expand/" class="">Expand</a>
   
 
         </li>
@@ -192,7 +194,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/hints/" class="">Hints</a>
+    <a href="/docs/shortcodes/hints/" class="">Hints</a>
   
 
         </li>
@@ -202,7 +204,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/katex/" class="">Katex</a>
+    <a href="/docs/shortcodes/katex/" class="">Katex</a>
   
 
         </li>
@@ -212,7 +214,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/mermaid/" class="">Mermaid</a>
+    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
   
 
         </li>
@@ -222,7 +224,7 @@ https://github.com/alex-shpak/hugo-book
         <li>
           
   
-    <a href="/Minry/minry.github.io.git/docs/shortcodes/tabs/" class="">Tabs</a>
+    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
   
 
         </li>
@@ -251,8 +253,20 @@ https://github.com/alex-shpak/hugo-book
 <ul>
   
   <li>
-    <a href="/Minry/minry.github.io.git/posts/" >
+    <a href="/posts/" >
         Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://themes.gohugo.io/hugo-book/" target="_blank" rel="noopener">
+        Hugo Themes
       </a>
   </li>
   
@@ -279,13 +293,13 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/Minry/minry.github.io.git/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <strong>Creating a New Theme</strong>
 
   <label for="toc-control">
-    <img src="/Minry/minry.github.io.git/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
   </label>
 </div>
 
@@ -296,60 +310,64 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#some-definitions">Some Definitions</a>
+    <li>
       <ul>
-        <li><a href="#skins">Skins</a></li>
-        <li><a href="#the-home-page">The Home Page</a></li>
-        <li><a href="#site-configuration-file">Site Configuration File</a></li>
-        <li><a href="#content">Content</a></li>
-        <li><a href="#template-files">Template Files</a></li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-site">Create a New Site</a>
-      <ul>
-        <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
-        <li><a href="#test-the-new-site">Test the New Site</a></li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-theme">Create a New Theme</a>
-      <ul>
-        <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
-        <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
-        <li><a href="#generate-the-site">Generate the Site</a></li>
-      </ul>
-    </li>
-    <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
-      <ul>
-        <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
-        <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
-        <li><a href="#live-reload">Live Reload</a></li>
-        <li><a href="#development-commands">Development Commands</a></li>
-      </ul>
-    </li>
-    <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
-      <ul>
-        <li><a href="#make-a-static-home-page">Make a Static Home Page</a></li>
-        <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a></li>
-        <li><a href="#list-and-single-templates">List and Single Templates</a></li>
-        <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
-        <li><a href="#add-content-to-the-posts">Add Content to the Posts</a></li>
-        <li><a href="#linking-to-content">Linking to Content</a></li>
-        <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
-      </ul>
-    </li>
-    <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
-    <li><a href="#sharing-templates">Sharing Templates</a>
-      <ul>
-        <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
-        <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
-        <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
-      </ul>
-    </li>
-    <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
-      <ul>
-        <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
-        <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#some-definitions">Some Definitions</a>
+          <ul>
+            <li><a href="#skins">Skins</a></li>
+            <li><a href="#the-home-page">The Home Page</a></li>
+            <li><a href="#site-configuration-file">Site Configuration File</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#template-files">Template Files</a></li>
+          </ul>
+        </li>
+        <li><a href="#create-a-new-site">Create a New Site</a>
+          <ul>
+            <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
+            <li><a href="#test-the-new-site">Test the New Site</a></li>
+          </ul>
+        </li>
+        <li><a href="#create-a-new-theme">Create a New Theme</a>
+          <ul>
+            <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
+            <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
+            <li><a href="#generate-the-site">Generate the Site</a></li>
+          </ul>
+        </li>
+        <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
+          <ul>
+            <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
+            <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
+            <li><a href="#live-reload">Live Reload</a></li>
+            <li><a href="#development-commands">Development Commands</a></li>
+          </ul>
+        </li>
+        <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
+          <ul>
+            <li><a href="#make-a-static-home-page">Make a Static Home Page</a></li>
+            <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a></li>
+            <li><a href="#list-and-single-templates">List and Single Templates</a></li>
+            <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
+            <li><a href="#add-content-to-the-posts">Add Content to the Posts</a></li>
+            <li><a href="#linking-to-content">Linking to Content</a></li>
+            <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
+          </ul>
+        </li>
+        <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
+        <li><a href="#sharing-templates">Sharing Templates</a>
+          <ul>
+            <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
+            <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
+            <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
+          </ul>
+        </li>
+        <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
+          <ul>
+            <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
+            <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -365,7 +383,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/Minry/minry.github.io.git/posts/creating-a-new-theme/">Creating a New Theme</a>
+    <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
   </h1>
   
   <h5>September 28, 2014</h5>
@@ -1192,9 +1210,68 @@ $ vi themes/zafta/layouts/_default/single.html
         
   <div class="flex justify-between">
 
+  
+
+
+  
+
+  
+
+  
 
 
 
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="https://example.com/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://example.com/ru/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Russian
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://example.com/cn/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/0aa41718c235b3c10044215c9f1d166fea1c8e66" title='Last modified by Minry | April 22, 2020' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>April 22, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/posts/creating-a-new-theme.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
 
 </div>
 
@@ -1218,60 +1295,64 @@ $ vi themes/zafta/layouts/_default/single.html
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#some-definitions">Some Definitions</a>
+    <li>
       <ul>
-        <li><a href="#skins">Skins</a></li>
-        <li><a href="#the-home-page">The Home Page</a></li>
-        <li><a href="#site-configuration-file">Site Configuration File</a></li>
-        <li><a href="#content">Content</a></li>
-        <li><a href="#template-files">Template Files</a></li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-site">Create a New Site</a>
-      <ul>
-        <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
-        <li><a href="#test-the-new-site">Test the New Site</a></li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-theme">Create a New Theme</a>
-      <ul>
-        <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
-        <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
-        <li><a href="#generate-the-site">Generate the Site</a></li>
-      </ul>
-    </li>
-    <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
-      <ul>
-        <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
-        <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
-        <li><a href="#live-reload">Live Reload</a></li>
-        <li><a href="#development-commands">Development Commands</a></li>
-      </ul>
-    </li>
-    <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
-      <ul>
-        <li><a href="#make-a-static-home-page">Make a Static Home Page</a></li>
-        <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a></li>
-        <li><a href="#list-and-single-templates">List and Single Templates</a></li>
-        <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
-        <li><a href="#add-content-to-the-posts">Add Content to the Posts</a></li>
-        <li><a href="#linking-to-content">Linking to Content</a></li>
-        <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
-      </ul>
-    </li>
-    <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
-    <li><a href="#sharing-templates">Sharing Templates</a>
-      <ul>
-        <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
-        <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
-        <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
-      </ul>
-    </li>
-    <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
-      <ul>
-        <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
-        <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#some-definitions">Some Definitions</a>
+          <ul>
+            <li><a href="#skins">Skins</a></li>
+            <li><a href="#the-home-page">The Home Page</a></li>
+            <li><a href="#site-configuration-file">Site Configuration File</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#template-files">Template Files</a></li>
+          </ul>
+        </li>
+        <li><a href="#create-a-new-site">Create a New Site</a>
+          <ul>
+            <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
+            <li><a href="#test-the-new-site">Test the New Site</a></li>
+          </ul>
+        </li>
+        <li><a href="#create-a-new-theme">Create a New Theme</a>
+          <ul>
+            <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
+            <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
+            <li><a href="#generate-the-site">Generate the Site</a></li>
+          </ul>
+        </li>
+        <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
+          <ul>
+            <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
+            <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
+            <li><a href="#live-reload">Live Reload</a></li>
+            <li><a href="#development-commands">Development Commands</a></li>
+          </ul>
+        </li>
+        <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
+          <ul>
+            <li><a href="#make-a-static-home-page">Make a Static Home Page</a></li>
+            <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a></li>
+            <li><a href="#list-and-single-templates">List and Single Templates</a></li>
+            <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
+            <li><a href="#add-content-to-the-posts">Add Content to the Posts</a></li>
+            <li><a href="#linking-to-content">Linking to Content</a></li>
+            <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
+          </ul>
+        </li>
+        <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
+        <li><a href="#sharing-templates">Sharing Templates</a>
+          <ul>
+            <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
+            <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
+            <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
+          </ul>
+        </li>
+        <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
+          <ul>
+            <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
+            <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
